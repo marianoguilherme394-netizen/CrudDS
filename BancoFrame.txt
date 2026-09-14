@@ -1,0 +1,9 @@
+Create Database equipamentos;
+Use equipamentos;
+
+create table tbl_equipamentos(
+id int (11) primary key,
+nome varchar(50),
+descricao varchar(50),
+quantidade int (10),
+patimonio varchar(50));
